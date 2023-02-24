@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#emoji-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+#emoji-wrapper div {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    width: 150px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+}
+
+#emoji-wrapper div span {
+    padding: 15px 4%;
+}
+
+#emoji-wrapper div span:nth-child(1) {
+    font-size: 40pt;
+}
